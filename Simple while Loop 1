@@ -1,0 +1,185 @@
+1]
+ class table{
+	public static void main(String[]args) {
+		int tableNo =2;
+		for(int i=1;i<=10; i++) {
+			System.out.print((i*tableNo)+" ");
+			
+		}
+		System.out.println();
+	}
+}
+
+2 4 6 8 10 12 14 16 18 20 
+--------------------------------------------------------------------------
+2]
+ class factorealNO{
+	public static void main(String[]args) {
+	int n = 6;
+	int fact= 1;
+	int itr =1;
+	while(itr<=n) {
+		fact = fact*itr;
+		itr++;
+		
+	}
+	System.out.println("Factorial of"+ n + "is"+ fact);
+		{
+			
+		}
+	}
+	}
+
+Factorial of6is720
+-------------------------------------------------------------------------
+3]
+class countDigit{
+	public static void main(String[]args) {
+		int digit = 93229572;
+		int count = 0;
+		while(digit!=0) {;
+		     count++;
+		     digit=digit/10;
+	}
+	System.out.print("Count of digit:"+ count);
+   }
+}
+
+Count of digit:8
+---------------------------------------------------------------------
+4]
+ class count_odd_digits{
+	public static void main(String[]args) {
+		int digit = 98346;
+		while(digit!=0) {;
+		int rem = digit%10;
+		if(rem%2==0) {;
+		System.out.print((rem*rem)+" ");
+		//Square of even no.
+	}
+	digit/=10;	
+}
+System.out.print("54");
+}
+}
+
+36 16 64 54
+--------------------------------------------------------------------------
+
+5]
+ class Square_of_even_No{
+	public static void main(String[]args) {
+		int day =7;
+		if(day==0) {
+			System.out.println("day assingnment is over");
+		}else{
+			while(day>=1) {
+				System.out.println(day+"day remaning");
+				day--;
+			}
+			if(day==0) {
+				System.out.println(day+"days reamaning is over");
+				
+			}
+		}
+	}
+}
+	
+7day remaning
+6day remaning
+5day remaning
+4day remaning
+3day remaning
+2day remaning
+1day remaning
+0days reamaning is over
+---------------------------------------------------------------------
+6]
+class sum_of_ Even_mul_of_odd{
+	public static void main(String[]args) {
+		//int num=6;
+		int num=7;
+		if(num%2==0) {
+			while(num>=1) {
+				System.out.print(num+"");
+				num--;
+				
+			}
+		}
+		else {
+			while(num>=1) {
+				System.out.print(num+" ");
+				num=num-2;
+			}
+		}
+		
+	}
+}
+
+7 5 3 1 
+------------------------------------------------------------------
+7]
+ class primeNo{
+	public static void main(String[]arg) {
+		//int num=6;
+		int num=7;
+		if(num%2==0) {
+			while(num>=1) {
+				System.out.print(num+" ");
+				num --;
+				
+			}
+		}
+		else {
+			while(num>=1){
+				System.out.print(num+" ");
+				num=num-2;
+				
+			}
+		}
+		System.out.println();
+	}
+}
+O/P=7 5 3 1 
+------------------------------------------------------------------------
+8]
+ class reverse No{
+	public static void main(String[]args) {
+		int No=93229572;
+		int rev=0;
+		int rem=0;
+		int temp=No;
+		while(temp !=0) {
+			rem= temp%10;
+			rev=rev*10+ rem;
+			temp=temp/10;
+			
+		}
+		System.out.println(No +"After Reverse: "+ rev);
+		
+	}
+	
+	}
+O/P=93229572After Reverse: 27592239
+-----------------------------------------------------------------------
+9]
+ class palindrome_no{
+	public static void main(String[]args) {
+		int num=222;
+		int rev =0;
+		int temp = num;
+		while(temp!=0) {
+			rev= rev*10 +(temp%10);
+			temp/=10;
+			
+		}
+		if(num==rev) {
+			System.out.println(num +"is a palindrome number");
+		}else {
+			System.out.println(num+"is not palindrom number");
+			
+		}
+		}
+	}
+O/P=222is a pailndrome number
+--------------------------------------------------------------------
