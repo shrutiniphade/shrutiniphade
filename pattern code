@@ -1,0 +1,48 @@
+public class pattern{
+	public static void main(String[]args) {
+		int n=28;
+		int z=0;
+		for(int i=1;i<=n;i++) {
+			for (int j=n-1; j>=i;j--) {
+				System.out.print(" ");
+				
+			}
+			for(int k=i-1;k>=-(i-1);k--) {
+				System.out.print((char)(z-Math.abs(k)+65));
+				
+			}
+			z+=2;
+			System.out.println();
+		}
+			
+		}
+	} 
+o/p=
+                           A
+                          BCB
+                         CDEDC
+                        DEFGFED
+                       EFGHIHGFE
+                      FGHIJKJIHGF
+                     GHIJKLMLKJIHG
+                    HIJKLMNONMLKJIH
+                   IJKLMNOPQPONMLKJI
+                  JKLMNOPQRSRQPONMLKJ
+                 KLMNOPQRSTUTSRQPONMLK
+                LMNOPQRSTUVWVUTSRQPONML
+               MNOPQRSTUVWXYXWVUTSRQPONM
+              NOPQRSTUVWXYZ[ZYXWVUTSRQPON
+             OPQRSTUVWXYZ[\]\[ZYXWVUTSRQPO
+            PQRSTUVWXYZ[\]^_^]\[ZYXWVUTSRQP
+           QRSTUVWXYZ[\]^_`a`_^]\[ZYXWVUTSRQ
+          RSTUVWXYZ[\]^_`abcba`_^]\[ZYXWVUTSR
+         STUVWXYZ[\]^_`abcdedcba`_^]\[ZYXWVUTS
+        TUVWXYZ[\]^_`abcdefgfedcba`_^]\[ZYXWVUT
+       UVWXYZ[\]^_`abcdefghihgfedcba`_^]\[ZYXWVU
+      VWXYZ[\]^_`abcdefghijkjihgfedcba`_^]\[ZYXWV
+     WXYZ[\]^_`abcdefghijklmlkjihgfedcba`_^]\[ZYXW
+    XYZ[\]^_`abcdefghijklmnonmlkjihgfedcba`_^]\[ZYX
+   YZ[\]^_`abcdefghijklmnopqponmlkjihgfedcba`_^]\[ZY
+  Z[\]^_`abcdefghijklmnopqrsrqponmlkjihgfedcba`_^]\[Z
+ [\]^_`abcdefghijklmnopqrstutsrqponmlkjihgfedcba`_^]\[
+\]^_`abcdefghijklmnopqrstuvwvutsrqponmlkjihgfedcba`_^]\
