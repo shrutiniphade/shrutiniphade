@@ -1,0 +1,234 @@
+● BASIC IF ELSE
+
+1]. class factorealNO{
+	public static void main(String[]args) {
+	int n = 6;
+	int fact= 1;
+	int itr =1;
+	while(itr<=n) {
+		fact = fact*itr;
+		itr++;
+		
+	}
+	System.out.println("Factorial of"+ n + "is"+ fact);
+		{
+			
+		}
+	}
+	}
+
+
+
+-------------------------------------------------------------------------------------------------------------------------------------------------
+2].
+package solution;
+
+public class Solution {
+	public static void main(String[]arg) {
+		int var=5;
+		if(var<10) {
+			System.out.println(var+"is less than 10");
+		}else if(var>10) {
+			System.out.println(var+"is Greateer than 10");
+		}else {
+			System.out.println(var+"is equal to 10");
+		}
+	}
+}
+
+o/p= 
+5is less than 10
+
+-----------------------------------------------------------------------------------------------------------------------------------------------
+3].
+
+package solution;
+
+public class Solution{
+	public static void main(String[]arg) {
+	int var=5;
+	if(var<0) {
+		System.out.println(var+"is Negative Number");
+	}else if(var>0) {
+		System.out.println(var+"is Positive Number");
+	}else {
+		System.out.println(var+"is Neither Positive nor Negative Number");
+	}
+	};
+	
+	
+}
+O/P=
+5is Positive Number
+
+---------------------------------------------------------------------------------------------------------------------------------------
+4].
+
+package solution;
+
+public class Solution {
+	public static void main(String[]arg) {
+		int var=6;
+		
+		if(var<0) {;
+		System.out.println(var+"is Less Than Zero");
+	}else if(var==0) {
+		System.out.println("Zero");
+	}else if(var==1) {
+		System.out.println("One");
+	}else if (var==2) {
+		System.out.println("Two");
+	}else if (var==3) {
+		System.out.println("Three");
+	}else if (var==4) {
+		System.out.println("Four");
+	}else if (var==5) {
+		System.out.println("Five");
+	}else {
+		System.out.println(var+"is Greater than 5");
+	}
+		
+	
+		
+		
+	}
+}
+
+O/P=
+6is Greater than 5
+---------------------------------------------------------------------------------------------------------------
+5].
+
+package solution;
+
+public class Solution {
+	public static void main(String[]arg) {
+		int month=15;
+		if(month==0|| month >12) {
+			System.out.println("invalid month");
+		}else if (month==1) {
+			System.out.println("jan has 31 days");
+		}else if (month==2){
+			System.out.println("feb has 28 or 29 days");
+		}else if (month==3) {
+			System.out.println("mar has 31 days");
+		}else if (month==4) {
+			System.out.println("april has 30 days");
+		}else if (month==5) {
+			System.out.println("may has 31 days");
+		}else if (month==6) {
+			System.out.println("june has 30 days");
+		}else if (month==7) {
+			System.out.println("july has 31 days");
+		}else if (month==8) {
+			System.out.println("aug has 31 days");
+		}else if (month==9) {
+			System.out.println("sep has 30 days");
+		}else if (month==10) {
+		    System.out.println("oct has 31 days");
+		}else if (month==11) {
+		    System.out.println("nov has 30 days");
+	    }else if (month==12) {
+	    	System.out.println("dec has 31 days");
+	       
+		}
+		
+	}
+	
+}
+O/P=
+
+invalid month
+----------------------------------------------------------------------------------------------------------------------------------------------------------
+6].
+
+package solution;
+
+public class Solution {
+	public static void main(String[]arg) {
+		int selling_price=300;
+		int cost_price=500;
+		
+		if (selling_price> cost_price) {
+			System.out.println("Profit of"+(selling_price-cost_price));
+		}else if (selling_price<cost_price) {
+			System.out.println("Loss of"+(cost_price-selling_price));
+		}else {
+			System.out.println("no loss no profit");
+			
+		}
+	}
+}
+
+O/P=
+Loss of200
+	------------------------------------------------------------------------------------------------------------------------
+7].
+
+public class Solution {
+	   public static void main(String[]arg) {
+		   float money=1500.00f;
+				   if(money<=0.00f) {
+				   System.out.println("dont go anywhere keep starving");
+			   }else if(money>=700f) {
+				   System.out.println("party at babeque nation");
+	               }else if (money>=5000.00f) {
+		               System.out.println("dine in 5 star");
+	                }else {
+		               System.out.println("monthly mess");
+				   }
+	   }
+	}
+O/P=
+
+party at babeque nation
+
+-----------------------------------------------------------------------------------------------------------------------------------------------
+8].
+
+package solution;
+public class Solution {
+	public static void main(String[]args) {
+		int a=3,b=4,c=4;
+		if(a*a==b*b+c+c||b*b==a*a+b*b||c*c==a*a+b*b) {
+			System.out.println("tringle is pythagorean triplet");
+		}else {
+			System.out.println("tringle is not pythagoren triplet");
+		}
+	}
+}
+O/P=
+
+tringle is not pythagoren triplet
+
+----------------------------------------------------------------------------------------
+9].
+
+package solution;
+public class Solution{
+	public static void main(String[]args) {
+		int day=9;
+		if(day<1&day>7) {
+			System.out.println("invalid day number");
+		}else if(day==1) {
+			System.out.println("mon");
+		}else if (day==2) {
+			System.out.println("tue");
+		}else if (day==3) {
+			System.out.println("wed");
+		}else if (day==4) {
+			System.out.println("thu");
+		}else if (day==5) {
+			System.out.println("fri");
+		}else if (day==6) {
+			System.out.println("sat");
+		}else {
+			System.out.println("sun");
+			
+		}
+	}
+}
+o/p=
+
+sun
+-------------------------------------------------------------------------------------------------------
